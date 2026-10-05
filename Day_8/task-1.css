@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    background-color: black;
+    padding: 80px;
+    width: 99vw;
+    height: 99vh;
+    color:white;
+}

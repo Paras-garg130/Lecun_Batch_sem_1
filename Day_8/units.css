@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item-1 {
+    background-color: rgb(205, 142, 24);
+    height: 300px;
+    width: 500px;
+}
+.item-2 {
+    background-color: rgb(11, 198, 155);
+    height: 300px;
+    width: 60%;
+}.item-3 {
+    background-color: rgb(95, 27, 212);
+    height: 300px;
+    width: 60vw;
+}
+section {
+    width: 700px;
+    background-color: black;
+}

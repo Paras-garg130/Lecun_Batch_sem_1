@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+    background-color:yellow;
+}
+p {
+    color: rgb(245, 20, 222);
+    background-color:black;
+    width: 300px;
+}
+#middle {
+    color:aquamarine;
+    background-color:salmon;;
+}
+.text {
+    background-color: lightgray;
+}
+span {
+    color:azure;
+    background-color: crimson;
+    width: 250px;
+} 
