@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    gap: 12px;
+}
+nav {
+
+    border: 2px solid grey;
+    background-color: lightcyan;
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    width: fit-content;
+
+    position: absolute;
+    /* z-index: -1; */
+    top: 40px;
+}
+.mobile-btns {
+    display: none;
+}
+.menu-container {
+    order: -1;
+    background-color: cadetblue;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+button {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgba(218, 165, 32, 0.7);
+}
+
+.menu-container:hover nav{
+    /* background-color: bisque; */
+    display:flex;
+}
