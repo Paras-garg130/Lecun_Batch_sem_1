@@ -23,8 +23,8 @@ nav {
     /* z-index: -1; */
     top: 40px;
 }
-.mobile-btns {
-    display: none;
+.laptop-btns {
+    display: flex;
 }
 .menu-container {
     order: -1;
@@ -43,4 +43,30 @@ button {
 .menu-container:hover nav{
     /* background-color: bisque; */
     display:flex;
+}
+
+
+@media (width>600px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        position: static;
+    }
+    .menu-container{
+        order:1;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 0%;
+        background-color: transparent;
+    }
+    .laptop-btns {
+        display: flex;
+        order: 2;
+    }
+    .mobile-btns {
+    display: none;
+    }
+    header {
+        justify-content: space-between; 
+    }
 }
